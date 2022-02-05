@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./app.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Checkout</title>
+  </head>
+  <body>
+    <h1 class="title">Checkout</h1>
+
+    <main class="contact-inf">
+      <form action="">
+        <div class="data-form">
+          <h1 class="title_1">Contact information</h1>
+          <div class="campo">
+
+            <label for="email" class="form-label">Email</label>
+            <input 
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email..."
+              required
+            />
+            <i class="material-icons">email</i>
+          </div>
+          <div class="campo">
+            <label for="phone" class="form-label">Phone </label>
+            <input
+              type="text"
+              class="form-control"
+              id="phone"
+              placeholder="Enter your phone..."
+              required
+            />
+            <i class="material-icons">phone</i>
+          </div>
+        </div>
+        <div>
+          <h1 class="title_1">Shipping address</h1>
+          <div class="campo">
+            <label for="name" class="form-label">Full Name</label>
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              id="name"
+              placeholder="Enter your name..."
+            />
+            <i class="material-icons">person</i>
+            <div class="campo">
+              <label for="address" class="form-label">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="Enter your address ..."
+                required
+              />
+              <i class="material-icons">home</i>
+            </div>
+            <div class="campo">
+              <label for="city" class="form-label">City</label>
+              <input
+                type="text"
+                class="form-control"
+                id="city"
+                placeholder="Enter your city ..."
+                required
+              />
+              <i class="material-icons">factory</i>
+            </div>
+
+            <div class="field_campo">
+              <label for="country" class="form-label">Country</label>
+              <select class="form-select" id="country" required>
+                <option value="">Turkey</option>
+                <option>Turkey</option>
+              </select>
+              <i class="material-icons">public</i>
+            </div>
+
+            <div class="field_campo">
+              <label for="city" class="form-label">Post Code</label>
+              <input
+                type="text"
+                class="form-control-1"
+                id="postcode"
+                placeholder="Enter your Postal code ..."
+                required
+                
+              />
+              <i class="material-icons">folder_shared</i>
+            </div>
+
+            <div class="campo">
+              <input
+                type="checkbox"
+                id="checkbox"
+                name="checkbox"
+                class="checkbox"
+              />
+              <label for="checkbox" class="checkbox_label"
+                >See this information next time</label
+              >
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <div class="prodect_panel">
+        <div class="product">
+          <img src="./photo1.png" alt="" />
+          <div class="product_info">
+            <h2>Vintage Backbag</h2>
+            <p class="product_info_p">
+              <strong>$54.99</strong> <span>$94.99</span>
+            </p>
+            <div class="quantiy">
+              <button class="guanty_1"><b>-</b></button>
+              <p class="number">1</p>
+              <button class="guanty_1"><b>+</b></button>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./photo2.png" alt="" />
+          <div class="product_info">
+            <h2>Levi Shoes</h2>
+            <p class="product_info_p">
+              <strong>$74.99</strong> <span>$124.99</span>
+            </p>
+
+            <div class="quantiy">
+              <button class="guanty_1"><b>-</b></button>
+              <p class="number">1</p>
+              <button class="guanty_1"><b>+</b></button>
+            </div>
+          </div>
+        </div>
+        <p style="text-decoration:overline; size: 10px;">Shipping&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;$19</p>
+        <p style="text-decoration: overline;">Total &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$148.98</p>
+      </div>
+    </main>
+
+    <button id="contiune">Continue</button>
+  </body>
+</html>

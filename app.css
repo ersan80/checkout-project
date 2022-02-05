@@ -1,0 +1,376 @@
+ body{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+   
+
+ }
+
+.title {
+   font-family:'Times New Roman', Times, serif;
+   font-size: 32px;
+   font-weight: 700;
+   text-align: center;
+   word-spacing: 0px;
+   margin: 15px 0 15px 0;
+  
+ }
+ .title_1{
+   font-size: 18px;
+   font-weight: 700;
+   color: #333333;
+   height: 22px;
+   width: 372px;
+   margin: 15px 0 15px 0;
+
+ }
+
+ .contact-inf{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+ 
+   margin: auto;
+   position: relative;
+   left: 150px;
+/*   /*  height: 612px;
+   width: 1008px; 
+   margin: 35px 0px 35px 0px;
+   position: relative;
+   top: 0px;
+   bottom: 0px;
+   right: -720px;
+   left: 720px;
+   display: grid; */
+   
+
+
+ }
+
+ form{
+   height: 612px;
+   width: 372px;
+   margin: 0 150px 0 0;
+   min-height: auto;
+   min-width: auto;
+   position: relative;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   display: block;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+ }
+
+ .data-form{
+   font-family: monospace;
+   font-size: 16px;
+   height: 165px;
+   width: 372px;
+   position: relative;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   display: block;
+   
+ }
+
+ .campo{
+   height: 59px;
+   width: 372px;
+   margin: 10px 0 10px 0;
+   display: block;
+ }
+ label{
+   font-size: 12px;
+   word-spacing: 0px;
+   height: 15px;
+   width: 372px;
+   margin: 10px 0 10px 0;
+   position: relative;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   display: block;
+ }
+
+ .form-control{
+   height: 16px;
+   width: 372px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   border: 1px solid #828282;
+   padding: 8px 5px 8px 35px;
+   display: inline-block;
+   cursor: text;
+   transform: none;
+   
+   border-top-left-radius: 5px 5px;
+   border-bottom-right-radius: 5px 5px;
+   border-radius: 5px;
+  
+ }
+
+ .field_campo{
+   font-size: 16px;
+   word-spacing: 0px;
+   height: 70px;
+   width: 117px;
+   margin: 10px 7px 10px 0px;
+   display: inline-block;
+
+ }
+
+ .form-label{
+   font-size: 14px;
+   height: 15px;
+   width: 117px;
+   margin: 10px 0px 10px 0;
+   position: relative;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   display: block;
+   opacity: 0.5;
+
+ }
+
+ .form-select{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13.3px;
+   text-decoration: none;
+   height: 35px;
+   width: 117px;
+   border: 1px solid #828282;
+   padding: 8px 5px 8px 35px;
+   display: inline-block;
+   box-sizing: border-box;
+   border-top-left-radius: 5px;
+   border-radius: 5px;
+
+ }
+
+ .form-control-1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: #828282;
+   height: 16px;
+   width: 188px;
+   border: 1px solid #828282;
+   padding: 8px 5px 8px 35px;
+   display: inline-block;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-radius: 5px;
+ }
+
+ .checkbox_label{
+   font-size: 12px;
+   height: 15px;
+   width: 183px;
+   margin: -10px 0 10px 0;
+   position: relative;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   display:inline-block;
+
+ }
+
+ .checkbox{
+
+  height: 13px;
+  width: 13px;
+  margin: 0 10px 0 0;
+  min-height: 13px;
+  min-width: 13px;
+  display: inline-block;
+
+ }
+
+ .prodect_panel{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+   height: 365px;
+   width: 320px;
+   padding: 10px 20px 10px 20px;
+   position: relative;
+   left: 500px;
+   bottom: 600px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+   background-color: #EEEEEE;
+   background-position: 0% 0%;
+
+color: #000000;  }
+
+.product{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-decoration: none;
+  background-position: 0% 0%;
+  color: black;
+  height: 110px;
+  height: 320px;
+  margin: 10px 0 10px 0;
+  min-width: auto;
+  min-height: auto;
+  /* position: relative;
+  top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0; */
+ display: flex;
+ flex-wrap: nowrap;
+}
+
+img{
+  font-size: 16px;
+  height: 110px;
+  width: 98px;
+  margin: 0 20px 0 0;
+  min-height: auto;
+  min-width: auto;
+  border-radius: 10px;
+  display:inline;
+ 
+
+}
+
+h2{
+  font-size: 16px;
+  
+  color:#4e5150;
+  height: 19px;
+  width: 204px;
+  margin: 5px 0 5px 0;
+  display: block;
+
+}
+
+.product_info{
+  font-size: 16px;
+  height: 110px;
+  width: 240px;
+  float: right;
+  
+  
+
+  
+  
+
+
+}
+.product_info_p{
+  height: 19px;
+  width: 204px;
+  margin: 5px 0 5px 0;
+  position: relative;
+  top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   display:block;
+
+}
+
+strong{
+  font-size: 18px;
+  font-weight: 600;
+  color: #f2994a;
+  height: auto;
+  width:auto;
+  display: inline;
+}
+
+span{
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #4e5150;
+  display: inline;
+}
+
+.quantiy{
+  font-size: 16px;
+  height: 30px;
+  width: 80px;
+  border: 1px solid #888888;
+  margin: 20px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+
+}
+
+.guanty_1{
+  text-decoration: none;
+  text-align: center;
+  background-color: #e0e0e0;
+  font-size: 12px;
+  height: 25px;
+  width: 25px;
+  margin: auto;
+  position: relative;
+  top: 0;
+  bottom: 20px;
+  right: 10px;
+  left: 0px;
+  display: block;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+}
+
+.number{
+  font-family: Arial;
+  font-size: 12px;
+  color: #4e5150;
+  height: 25px;
+  width: 5px;
+  margin: 5px 0 5px 0;
+  min-height: auto;
+  min-width: auto;
+  position: relative;
+  top: 5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+
+
+
+}
+
+#contiune {
+  width: 100px;
+  padding: 14px 0;
+  border-radius: 10px;
+  background-color: #f2994a;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  position:relative;
+  left: 500px;
+  bottom: 400px;
+  right: 0;
+  margin:auto
+}
+
+i{
+ margin: 2px;
+
+  position: relative;
+
+}
+
+.material-icons{
+  position: relative;
+  bottom: 32px;
+  opacity: 0.4;
+}
